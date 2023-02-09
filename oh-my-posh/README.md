@@ -37,7 +37,7 @@ oh-my-posh init pwsh --config <THEME_FILE.omp.json> | Invoke-Expression
 Notice that we need to provide a theme file, which has a .omp.json format. There are a lot of default themes, but I recommend using mine, which can be found in `./oh-my-posh-themes/oliver.omp.json`. To point to this file, you can either use the github link:
 
 ```powershell
-oh-my-posh init pwsh --config "https://raw.githubusercontent.com/vsmoliveira/configs/main/oh-my-posh/oh-my-posh-themes/oliver.omp.json" | Invoke-Expression
+oh-my-posh init pwsh --config "https://raw.githubusercontent.com/vsmoliveira/configs/main/oh-my-posh/custom-themes/oliver.omp.json" | Invoke-Expression
 ```
 
 Which is not recommended, as this will need an internet connection and the path to the file may change.
