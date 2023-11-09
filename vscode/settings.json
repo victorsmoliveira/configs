@@ -1,0 +1,138 @@
+{
+    "[dockerfile]": {
+        "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+    },
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.formatOnType": true
+    },
+    "customWindowZoom.zoomLevelChangeValue": 0.25,
+    "debug.console.fontSize": 13,
+    "debug.toolBarLocation": "docked",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.bracketPairColorization.enabled": true,
+    "editor.fontFamily": "Fira Code, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 12.5,
+    "editor.formatOnType": true,
+    "editor.guides.bracketPairs": true,
+    "editor.guides.bracketPairsHorizontal": false,
+    "editor.inlineSuggest.enabled": true,
+    "editor.linkedEditing": true,
+    "editor.minimap.maxColumn": 80,
+    "editor.mouseWheelZoom": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.rulers": [
+        {},
+        88
+    ],
+    "editor.scrollbar.horizontalScrollbarSize": 10,
+    "editor.scrollbar.verticalScrollbarSize": 10,
+    "editor.tokenColorCustomizations": {
+        "[Omni]": {
+            "textMateRules": [
+                {
+                    "name": "Docstrings",
+                    "scope": [
+                        "string.quoted.docstring.multi",
+                        "string.quoted.docstring.multi.python punctuation.definition.string.begin",
+                        "string.quoted.docstring.multi.python punctuation.definition.string.end",
+                        "string.quoted.docstring.multi.python constant.character.escape"
+                    ],
+                    "settings": {
+                        "foreground": "#bc7cd3"
+                    }
+                },
+                {
+                    "name": "Comments",
+                    "scope": [
+                        "comment",
+                        "punctuation.definition.comment",
+                        "unused.comment",
+                        "wildcard.comment"
+                    ],
+                    "settings": {
+                        "fontStyle": "italic",
+                        "foreground": "#9c9c9c"
+                    }
+                }
+            ]
+        }
+    },
+    "editor.unicodeHighlight.nonBasicASCII": false,
+    "editor.wordWrap": "bounded",
+    "editor.wordWrapColumn": 88,
+    "explorer.compactFolders": false,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "files.defaultLanguage": "${activeEditorLanguage}",
+    "files.exclude": {
+        "**/.git": false
+    },
+    "files.hotExit": "off",
+    "files.trimTrailingWhitespace": true,
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "git.enableSmartCommit": true,
+    "git.fetchOnPull": true,
+    "git.pruneOnFetch": true,
+    "github.copilot.enable": {
+        "*": false,
+        "markdown": false,
+        "plaintext": true,
+        "yaml": false
+    },
+    "github.copilot.inlineSuggest.enable": false,
+    "gitlens.codeLens.enabled": false,
+    "gitlens.currentLine.enabled": false,
+    "gitlens.defaultDateFormat": null,
+    "gitlens.hovers.currentLine.over": "line",
+    "gitlens.views.repositories.avatars": false,
+    "html.format.contentUnformatted": "",
+    "json.schemas": [],
+    "jupyter.alwaysScrollOnNewCell": true,
+    "jupyter.askForKernelRestart": false,
+    "jupyter.experiments.optInto": [],
+    "jupyter.interactiveWindow.codeLens.enable": false,
+    "jupyter.interactiveWindow.textEditor.executeSelection": true,
+    "latex-workshop.latex.recipe.default": "lastUsed",
+    "markdown-preview-enhanced.previewTheme": "atom-dark.css",
+    "markdown.preview.fontSize": 16,
+    "markdown.preview.lineHeight": 1.8,
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+    "notebook.consolidatedRunButton": true,
+    "notebook.insertToolbarLocation": "betweenCells",
+    "notebook.lineNumbers": "on",
+    "notebook.output.textLineLimit": 50,
+    "python.defaultInterpreterPath": "C:\\Users\\Victor\\AppData\\Local\\Programs\\Python\\Python39\\python.exe",
+    "python.formatting.provider": "black",
+    "python.pythonPath": "/home/vsmoliveira/anaconda3/bin/python",
+    "python.terminal.executeInFileDir": true,
+    "security.workspace.trust.untrustedFiles": "open",
+    "settingsSync.ignoredSettings": [
+        "python.defaultInterpreterPath"
+    ],
+    "settingsSync.keybindingsPerPlatform": false,
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "terminal.integrated.fontFamily": "FiraCode NFM",
+    "terminal.integrated.fontSize": 13,
+    "terminal.integrated.scrollback": 20000,
+    "window.restoreWindows": "none",
+    "window.titleBarStyle": "custom",
+    "window.zoomLevel": 0.5,
+    "workbench.colorTheme": "Omni",
+    "workbench.editor.wrapTabs": true,
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook",
+        "*.pdf": "latex-workshop-pdf-hook"
+    },
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.list.openMode": "doubleClick",
+    "workbench.sideBar.location": "right",
+    "workbench.startupEditor": "newUntitledFile",
+    "zenMode.hideLineNumbers": false,
+    "zenMode.hideTabs": false
+}
