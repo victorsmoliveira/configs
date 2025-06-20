@@ -1,0 +1,173 @@
+{
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[python]": {
+        "editor.defaultFormatter": "charliermarsh.ruff",
+        "diffEditor.ignoreTrimWhitespace": true
+    },
+    "atlascode.jira.enabled": false,
+    "cursor.composer.shouldAllowCustomModes": true,
+    "cursor.composer.shouldChimeAfterChatFinishes": true,
+    "cursor.cpp.enablePartialAccepts": true,
+    "customWindowZoom.zoomLevelChangeValue": 0.25,
+    "debug.console.fontSize": 13,
+    "diffEditor.ignoreTrimWhitespace": true,
+    "editor.bracketPairColorization.enabled": true,
+    "editor.fontFamily": "Fira Code, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 12.5,
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.guides.bracketPairs": true,
+    "editor.guides.bracketPairsHorizontal": false,
+    "editor.inlineSuggest.enabled": true,
+    "editor.linkedEditing": true,
+    "editor.minimap.maxColumn": 80,
+    "editor.mouseWheelZoom": true,
+    "editor.rulers": [
+        {},
+        100
+    ],
+    "editor.scrollbar.horizontalScrollbarSize": 10,
+    "editor.scrollbar.verticalScrollbarSize": 10,
+    "editor.tokenColorCustomizations": {
+        "[Omni]": {
+            "textMateRules": [
+                {
+                    "name": "Docstrings",
+                    "scope": [
+                        "string.quoted.docstring.multi",
+                        "string.quoted.docstring.multi.python punctuation.definition.string.begin",
+                        "string.quoted.docstring.multi.python punctuation.definition.string.end",
+                        "string.quoted.docstring.multi.python constant.character.escape"
+                    ],
+                    "settings": {
+                        "foreground": "#bc7cd3"
+                    }
+                },
+                {
+                    "name": "Comments",
+                    "scope": [
+                        "comment",
+                        "punctuation.definition.comment",
+                        "unused.comment",
+                        "wildcard.comment"
+                    ],
+                    "settings": {
+                        "fontStyle": "italic",
+                        "foreground": "#9c9c9c"
+                    }
+                }
+            ]
+        }
+    },
+    "editor.unicodeHighlight.nonBasicASCII": false,
+    "editor.wordWrap": "bounded",
+    "editor.wordWrapColumn": 100,
+    "explorer.compactFolders": false,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "files.autoSave": "afterDelay",
+    "files.defaultLanguage": "${activeEditorLanguage}",
+    "files.exclude": {
+        "**/.git": false
+    },
+    "files.hotExit": "off",
+    "files.trimTrailingWhitespace": true,
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "git.enableSmartCommit": true,
+    "git.fetchOnPull": true,
+    "git.pruneOnFetch": true,
+    "gitlens.codeLens.enabled": false,
+    "gitlens.currentLine.enabled": false,
+    "gitlens.defaultDateFormat": null,
+    "gitlens.hovers.currentLine.over": "line",
+    "gitlens.views.repositories.avatars": false,
+    "html.format.contentUnformatted": "",
+    "json.schemas": [],
+    "jupyter.askForKernelRestart": false,
+    "jupyter.experiments.optInto": [],
+    "jupyter.interactiveWindow.codeLens.enable": false,
+    "jupyter.interactiveWindow.textEditor.executeSelection": true,
+    "jupyter.runStartupCommands": [
+        "%load_ext autoreload",
+        "%autoreload 2"
+    ],
+    "latex-workshop.latex.recipe.default": "lastUsed",
+    "markdown-preview-enhanced.previewTheme": "atom-dark.css",
+    "markdown.preview.fontSize": 16,
+    "markdown.preview.lineHeight": 1.8,
+    "notebook.cellExecutionTimeVerbosity": "verbose",
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "right"
+    },
+    "notebook.consolidatedOutputButton": false,
+    "notebook.defaultFormatter": "charliermarsh.ruff",
+    "notebook.formatOnSave.enabled": true,
+    "notebook.insertToolbarLocation": "betweenCells",
+    "notebook.lineNumbers": "on",
+    "notebook.markup.fontSize": 12,
+    "notebook.multiCursor.enabled": true,
+    "notebook.output.textLineLimit": 50,
+    "notebook.variablesView": true,
+    "python.terminal.executeInFileDir": true,
+    "security.workspace.trust.untrustedFiles": "open",
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "terminal.integrated.fontFamily": "FiraCode NFM",
+    "terminal.integrated.fontSize": 13,
+    "terminal.integrated.scrollback": 20000,
+    "window.commandCenter": true,
+    "window.restoreWindows": "none",
+    "window.titleBarStyle": "custom",
+    "window.zoomLevel": -0.25,
+    "workbench.colorCustomizations": {
+        "statusBarItem.remoteBackground": "#be6ac6",
+        "statusBarItem.remoteForeground": "#000000"
+    },
+    "workbench.colorTheme": "Omni",
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.list.openMode": "doubleClick",
+    "workbench.sideBar.location": "right",
+    "yaml.schemas": {
+        "file:///Users/victordsm/.cursor/extensions/atlassian.atlascode-3.8.3/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+    },
+    "notebook.output.fontSize": 12,
+    "debug.console.wordWrap": false,
+    "update.releaseTrack": "prerelease",
+    "workbench.editor.wrapTabs": true,
+    "window.density.editorTabHeight": "compact",
+    "cursor.terminal.usePreviewBox": true,
+    "git.autoStash": true,
+    "gitlens.views.scm.grouped.views": {
+        "commits": false,
+        "branches": true,
+        "remotes": true,
+        "stashes": false,
+        "tags": true,
+        "worktrees": true,
+        "contributors": true,
+        "fileHistory": false,
+        "repositories": true,
+        "searchAndCompare": false,
+        "launchpad": false
+    },
+    "editor.multiCursorModifier": "ctrlCmd",
+    "task": {
+        "outputTo": "terminal"
+    },
+    "remote.autoForwardPortsSource": "hybrid",
+    "editor.stickyScroll.enabled": false,
+    "cursor.cpp.disabledLanguages": [
+        "plaintext"
+    ],
+    "cursorpyright.analysis.diagnosticMode": "workspace",
+    "cursorpyright.analysis.typeCheckingMode": "basic",
+    "docker.extension.enableComposeLanguageServer": false,
+    "debug.toolBarLocation": "commandCenter"
+}
