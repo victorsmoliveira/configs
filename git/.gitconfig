@@ -1,18 +1,20 @@
 [alias]
     co = checkout
     cop = checkout -
+    su = stash -u
     st = status -s
     undo = reset HEAD~
     lg = !git log --pretty=format:\"%C(magenta)%h%Creset -%C(red)%d%Creset %s %C(dim green)(%cr) [%an]\" --abbrev-commit -30
     br = branch --format='%(HEAD) %(color:yellow)%(refname:short)%(color:reset) - %(contents:subject) %(color:green)(%(committerdate:relative)) [%(authorname)]' --sort=-committerdate
     cm = commit -m
     cma = "!git add -A && git commit -m"
-    cmf = commit -m "Format files"
     sl = stash list
     sp = stash pop
-    p = push origin HEAD
-    pu = push -u origin HEAD
     cl = clone
     rmts = remote -v
     pullst = "!git stash -u && git pull && git stash pop"
     brco = checkout -b
+[color]
+	ui = auto
+[fetch]
+	prune = true
