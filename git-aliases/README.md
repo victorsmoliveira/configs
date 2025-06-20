@@ -4,6 +4,10 @@ Open your `.gitconfig` file and add the aliases to the `[alias]` section, creati
 
 ## Where is my .gitconfig file?
 
-On Windows, it is located in your user folder, e.g. `C:\Users\<your_username>\.gitconfig`.
+It depends on your operating system:
 
-For other platforms, ask Google :p
+| Operating System | Location |
+|-----------------|----------|
+| Windows         | `C:\Users\<your_username>\.gitconfig` |
+| macOS           | `/Users/<your_username>/.gitconfig` |
+| Linux           | `/home/<your_username>/.gitconfig` |
